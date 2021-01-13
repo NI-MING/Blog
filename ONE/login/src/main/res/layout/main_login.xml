@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="#fff"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/leetcode"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="开始力扣"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="用力扣，越能Code"
+        android:textColor="#555555"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputphone"
+        android:hint="手机号码"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+</LinearLayout>
